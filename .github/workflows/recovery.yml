@@ -35,8 +35,7 @@ on:
         default: 'eng'
       extra_cmd:
         description: 'Do extra commands followed by && after each cmds, i.e rm -rf repo && git clone repo'
-        required: true
-        default: 'false'
+        required: false
 
 env:
   MANIFEST: ${{ github.event.inputs.manifest }}
