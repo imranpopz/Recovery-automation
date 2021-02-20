@@ -53,6 +53,7 @@ else
 fi
 echo "::endgroup::"
 
+echo "::group::Pre-Compilation"
 printf "Compiling Recovery...\n"
 
 export ALLOW_MISSING_DEPENDENCIES=true
